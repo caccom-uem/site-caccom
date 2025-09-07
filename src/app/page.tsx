@@ -61,18 +61,19 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
+                src={"/image/nuno.jpg"}
+                alt="Foto do Nuno"
                 width={150}
                 height={150}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
+                Nuno M. M. Abilio
               </p>
-              <p className="text-xl text-gray-700 mb-4">
-                Presidente
-              </p>
+              <a className="text-blue-500 hover:underline"
+                href={"https://www.linkedin.com/in/nuno-miguel-mendon%C3%A7a-abilio-7b390a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
+                Linkedin
+              </a>
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
@@ -197,18 +198,15 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
+                src={"/image/eduardo.jpg"}
+                alt="Foto do Eduardo"
                 width={150}
                 height={150}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
+                Eduardo A. R. Minholi 
               </p>
-              <button>
-                Linkedin
-              </button>
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
@@ -252,14 +250,14 @@ export default function Home() {
             </li>
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Nuno M. M. Abilio </span> 
+                <span className="text-xl"> 🦀 Nuno M. M. Abilio </span> 
                 <br/>
                 <span className="font-bold text-xl "> Diretor de Relações Públicas </span>
               </p>
             </li>
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Sophia F. A. Oliveira </span> 
+                <span className="text-xl">  🤍 Sophia F. A. Oliveira </span> 
                 <br/>
                 <span className="font-bold text-xl "> Tesoureira </span>
               </p>
@@ -273,7 +271,7 @@ export default function Home() {
             </li>
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Eduardo A. R. Minholi </span> 
+                <span className="text-xl"> 🤓 Eduardo A. R. Minholi </span> 
                 <br/>
                 <span className="font-bold text-xl "> Diretor de Projetos e Eventos </span>
               </p>
