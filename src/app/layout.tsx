@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import Navbar from "../components/NavBar";
+import Folder from "../components/Folder";
 
 export const metadata: Metadata = {
   title: "CACCOM",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className="bg-background">
         <Navbar/>
         <main>{children} </main>
+        <Folder/>
       </body>
     </html>
   );
