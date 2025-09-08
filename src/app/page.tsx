@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { FaInstagram } from "react-icons/fa";
+import { EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/solid";
+import Mapa from "../components/Mapa";
 
 export default function Home() {
   return (
@@ -93,108 +96,19 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
+                src={"/image/arthur.jpg"}
+                alt="Foto do Arthur"
                 width={150}
-                height={150}
+                height={50}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
+                Arthur H. da Silva 
               </p>
-              <button>
+              <a className="text-blue-500 hover:underline"
+                href={"https://www.linkedin.com/in/arthur-henrique-da-silva-536723269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
                 Linkedin
-              </button>
-            </div>
-            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
-              <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
-                width={150}
-                height={150}
-                className="rounded-md"
-              ></Image>
-              <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
-              </p>
-              <button>
-                Linkedin
-              </button>
-            </div>
-            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
-              <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
-                width={150}
-                height={150}
-                className="rounded-md"
-              ></Image>
-              <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
-              </p>
-              <button>
-                Linkedin
-              </button>
-            </div>
-            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
-              <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
-                width={150}
-                height={150}
-                className="rounded-md"
-              ></Image>
-              <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
-              </p>
-              <button>
-                Linkedin
-              </button>
-            </div>
-            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
-              <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
-                width={150}
-                height={150}
-                className="rounded-md"
-              ></Image>
-              <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
-              </p>
-              <button>
-                Linkedin
-              </button>
-            </div>
-            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
-              <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
-                width={150}
-                height={150}
-                className="rounded-md"
-              ></Image>
-              <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
-              </p>
-              <button>
-                Linkedin
-              </button>
-            </div>
-            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
-              <Image
-                src={"/image/lucas.jpg"}
-                alt="Foto do Lucas"
-                width={150}
-                height={150}
-                className="rounded-md"
-              ></Image>
-              <p className="text-2xl font-bold mt-4 mb-2">
-                Lucas Alves de Lima
-              </p>
-              <button>
-                Linkedin
-              </button>
+              </a>
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
@@ -222,6 +136,100 @@ export default function Home() {
               <button>
                 Linkedin
               </button>
+            </div>
+            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
+              <Image
+                src={"/image/giovana.jpg"}
+                alt="Foto do Giovana"
+                width={150}
+                height={150}
+                className="rounded-md"
+              ></Image>
+              <p className="text-2xl font-bold mt-4 mb-2">
+                Giovanna da S. Bulcão 
+              </p>
+              <a className="text-blue-500 hover:underline"
+                href={"https://www.linkedin.com/in/giovana-da-silva-bulc%C3%A3o?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
+                Linkedin
+              </a>
+            </div>
+            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
+              <Image
+                src={"/image/cintia.jpg"}
+                alt="Foto da Cintia"
+                width={150}
+                height={150}
+                className="rounded-md"
+              ></Image>
+              <p className="text-2xl font-bold mt-4 mb-2">
+                Cintia da S. Bulcão 
+              </p>
+              <a className="text-blue-500 hover:underline"
+                href={"https://www.linkedin.com/in/cintia-da-silva-bulc%C3%A3o-66896836b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
+                Linkedin
+              </a>
+            </div>
+            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
+              <Image
+                src={"/image/lucas.jpg"}
+                alt="Foto do Lucas"
+                width={150}
+                height={150}
+                className="rounded-md"
+              ></Image>
+              <p className="text-2xl font-bold mt-4 mb-2">
+                Lucas Alves de Lima
+              </p>
+              <button>
+                Linkedin
+              </button>
+            </div>
+            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
+              <Image
+                src={"/image/pedro.jpg"}
+                alt="Foto do Pedro"
+                width={150}
+                height={150}
+                className="rounded-md"
+              ></Image>
+              <p className="text-2xl font-bold mt-4 mb-2">
+                Pedro L. S. Figueiredo 
+              </p>
+              <a className="text-blue-500 hover:underline"
+                href={"https://www.linkedin.com/in/pedro-luiz-47565b231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
+                Linkedin
+              </a>
+            </div>
+            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
+              <Image
+                src={"/image/lucas.jpg"}
+                alt="Foto do Lucas"
+                width={150}
+                height={150}
+                className="rounded-md"
+              ></Image>
+              <p className="text-2xl font-bold mt-4 mb-2">
+                Lucas Alves de Lima
+              </p>
+              <button>
+                Linkedin
+              </button>
+            </div>
+            <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
+              <Image
+                src={"/image/bernardo.jpg"}
+                alt="Foto do Bernardo"
+                width={150}
+                height={150}
+                className="rounded-md"
+              ></Image>
+              <p className="text-2xl font-bold mt-4 mb-2">
+                Bernardo W. de Oliveira 
+              </p>
+              <a className="text-blue-500 hover:underline"
+                href={"https://www.linkedin.com/in/bernardo-oliveira-b53666206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
+                Linkedin
+              </a>
             </div>
           </div>
         </div>
@@ -264,7 +272,7 @@ export default function Home() {
             </li>
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Arthur H. da Silva </span> 
+                <span className="text-xl"> 💭 Arthur H. da Silva </span> 
                 <br/>
                 <span className="font-bold text-xl "> Diretor de Mídias e Comunicações </span>
               </p>
@@ -290,14 +298,14 @@ export default function Home() {
           <ul className="list-none list-inside">
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Giovanna da S. Bulcão </span> 
+                <span className="text-xl"> 🥸 Giovanna da S. Bulcão </span> 
                 <br/>
                 <span className="font-bold text-xl "> Acessora da secretaria </span>
               </p>
             </li>
            <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Cintia da S. Bulcão </span> 
+                <span className="text-xl"> 👽 Cintia da S. Bulcão </span> 
                 <br/>
                 <span className="font-bold text-xl "> Acessora da presidência </span>
               </p>
@@ -311,7 +319,7 @@ export default function Home() {
             </li>
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Pedro L. S. Figueiredo </span> 
+                <span className="text-xl"> 🤙🏽 Pedro L. S. Figueiredo </span> 
                 <br/>
                 <span className="font-bold text-xl "> Acessor de comunicação </span>
               </p>
@@ -325,7 +333,7 @@ export default function Home() {
             </li>
             <li className="rounded-lg p-4 mt-5 bg-red gap-2 text-white">
               <p className="text-center">
-                <span className="text-xl"> 🥳 Bernardo W. de Oliveira  </span> 
+                <span className="text-xl"> 🤠 Bernardo W. de Oliveira  </span> 
                 <br/>
                 <span className="font-bold text-xl "> Acessor da secretaria </span>
               </p>
@@ -333,6 +341,73 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+      <section className="p-10 flex flex-col justify-center">
+        <h1 className="text-6xl text-red font-bold text-center">Contato e Localização</h1>
+        <div className="flex justify-around pt-10">
+          <div style={{width: "20%"}} className="flex flex-col gap-4 pr-10">
+            <p className=" flex text-xl items-end gap-2 mt-10">
+              <FaInstagram className="w-6 h-6 text-black"/> <a className="font-bold" href="https://www.instagram.com/caccomuem/"> @caccomuem</a> 
+            </p>
+            <p className="flex text-xl items-end gap-2">
+              <EnvelopeIcon className="w-6 h-6 text-black" /> <a className="font-bold" href="https://www.instagram.com/caccomuem/"> caccom@uem.br </a> 
+            </p>
+            <p className="flex text-xl items-end gap-2">
+              <MapPinIcon className="w-6 h-6 text-black" /> <span className="font-bold"> Bloco C56 - Sala 005 </span> 
+            </p>
+          </div>
+          <div style={{width: "80%"}}  className="rounded-lg border-4 border-red">
+            <Mapa></Mapa>
+          </div>
+          
+        </div>
+      </section>
+
+      <section className="p-10 flex flex-col justify-center items-center bg-gray-300">
+        <h1 className="text-6xl text-red font-bold text-center">Links Úteis</h1>
+        <div className="">
+          <ul className="list-none list-inside flex flex-wrap justify-center gap-5 mt-10">
+            <a href="">
+              <li className="rounded-lg p-4 mt-5 bg-black hover:bg-gray-800 gap-2 text-white flex items-center">
+                <p className="text-center">
+                  <span className="text-xl"> Estatuto </span> 
+                </p>
+              </li>
+            </a>
+            <a href="">
+              <li className="rounded-lg p-4 mt-5 bg-black hover:bg-gray-800 gap-2 text-white flex items-center">
+                <p className="text-center">
+                  <span className="text-xl">  Associação de Egresso do Departamento de Informática - AEDIN</span> 
+                </p>
+              </li>
+            </a>
+            <a href="">
+              <li className="rounded-lg p-4 mt-5 bg-black hover:bg-gray-800 gap-2 text-white flex items-center">
+                <p className="text-center">
+                  <span className="text-xl">  Empresa Júnior - MAIN </span> 
+                </p>
+              </li>
+            </a>
+            <a href="">
+              <li className="rounded-lg p-4 mt-5 bg-black hover:bg-gray-800 gap-2 text-white flex items-center">
+                <p className="text-center">
+                  <span className="text-xl"> Drive CACCOM </span> 
+                </p>
+              </li>
+            </a>
+            <a href="">
+              <li className="rounded-lg p-4 mt-5 bg-black hover:bg-gray-800 gap-2 text-white flex items-center">
+                <p className="text-center">
+                  <span className="text-xl"> Ouvidoria </span> 
+                </p>
+              </li>
+            </a>
+            
+          </ul>
+        </div>
+      </section>
+
+
     </div>
     
   );
