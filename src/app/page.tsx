@@ -35,8 +35,10 @@ export default function Home() {
               <Image
                 src={"/image/lucas.jpg"}
                 alt="Foto do Lucas"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -51,8 +53,10 @@ export default function Home() {
               <Image
                 src={"/image/lucas.jpg"}
                 alt="Foto do Lucas"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -66,8 +70,10 @@ export default function Home() {
               <Image
                 src={"/image/nuno.jpg"}
                 alt="Foto do Nuno"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -82,8 +88,10 @@ export default function Home() {
               <Image
                 src={"/image/sophia.jpg"}
                 alt="Foto da Sophia"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -98,8 +106,10 @@ export default function Home() {
               <Image
                 src={"/image/arthur.jpg"}
                 alt="Foto do Arthur"
-                width={150}
-                height={50}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -114,8 +124,10 @@ export default function Home() {
               <Image
                 src={"/image/eduardo.jpg"}
                 alt="Foto do Eduardo"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -126,8 +138,10 @@ export default function Home() {
               <Image
                 src={"/image/lucas.jpg"}
                 alt="Foto do Lucas"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -141,8 +155,10 @@ export default function Home() {
               <Image
                 src={"/image/giovana.jpg"}
                 alt="Foto do Giovana"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -157,8 +173,10 @@ export default function Home() {
               <Image
                 src={"/image/cintia.jpg"}
                 alt="Foto da Cintia"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -173,8 +191,10 @@ export default function Home() {
               <Image
                 src={"/image/lucas.jpg"}
                 alt="Foto do Lucas"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -188,8 +208,10 @@ export default function Home() {
               <Image
                 src={"/image/pedro.jpg"}
                 alt="Foto do Pedro"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -204,8 +226,10 @@ export default function Home() {
               <Image
                 src={"/image/lucas.jpg"}
                 alt="Foto do Lucas"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
@@ -219,8 +243,10 @@ export default function Home() {
               <Image
                 src={"/image/bernardo.jpg"}
                 alt="Foto do Bernardo"
-                width={150}
-                height={150}
+                height={150} 
+                width={0}    
+                sizes="100vw" 
+                style={{ width: "auto", height: "150px" }}
                 className="rounded-md"
               ></Image>
               <p className="text-2xl font-bold mt-4 mb-2">
