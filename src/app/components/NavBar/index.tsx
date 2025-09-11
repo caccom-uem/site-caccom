@@ -1,21 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import NavLink from "./NavLink";
+import { NavLink } from "./NavLink";
 
-export default function Navbar() {
+export function Navbar() {
   return (
     <nav className="w-full bg-black text-white pt-5 pl-10 flex flex-col shadow-md">
       <section className="flex justify-around item-center">
         <div className="flex space-x-2 justify-start h-auto" style={{width: "30%"}}>
           <Image
-            src={"/image/logo-icone.png"}
+            src={"/image/logo/logo-icone.png"}
             alt="Logo CACCOM"
             width={40}
             height={40}
           ></Image>
           <Image
-            src={"/image/logo-escrita.png"}
+            src={"/image/logo/logo-escrita.png"}
             alt="Logo CACCOM"
             width={120}
             height={20}

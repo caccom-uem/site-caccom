@@ -1,7 +1,7 @@
 // src/components/CaccomBanner.tsx
 import Image from "next/image";
 
-export default function Folder() {
+export function Folder() {
   return (
     <section className="relative bg-black text-white flex flex-col md:flex-row items-center justify-between p-8 md:p-16 overflow-hidden">
       {/* Parte esquerda */}
@@ -30,7 +30,7 @@ export default function Folder() {
       {/* Logo */}
       <div className="mt-5">
         <Image
-          src="/image/logo-sem-fundo.png"
+          src="/image/logo/logo-sem-fundo.png"
           alt="CACCOM Logo"
           width={200}
           height={200}

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import Navbar from "../components/NavBar";
-import Folder from "../components/Folder";
+import {Navbar} from "./components/NavBar";
+import {Folder} from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "CACCOM",

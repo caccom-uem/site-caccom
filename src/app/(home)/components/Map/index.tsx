@@ -1,4 +1,4 @@
-export default function Mapa() {
+export function Map() {
   return (
     <div className="w-full h-[400px]">
       <iframe

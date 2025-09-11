@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/solid";
-import Mapa from "../components/Mapa";
+import { Map } from "./components/Map";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div style={{width: "30%"}} className="pr-20 flex justify-center items-center">
           <Image
-            src={"/image/logo-cinza.png"}
+            src={"/image/logo/logo-cinza.png"}
             alt={"Logo cinza CACCOM"}
             className="rounded-[800]"
             width={500}
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-10 mt-10 justify-center">
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
+                src={"/image/members/lucas.jpg"}
                 alt="Foto do Lucas"
                 height={150} 
                 width={0}    
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
+                src={"/image/members/lucas.jpg"}
                 alt="Foto do Lucas"
                 height={150} 
                 width={0}    
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/nuno.jpg"}
+                src={"/image/members/nuno.jpg"}
                 alt="Foto do Nuno"
                 height={150} 
                 width={0}    
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/sophia.jpg"}
+                src={"/image/members/sophia.jpg"}
                 alt="Foto da Sophia"
                 height={150} 
                 width={0}    
@@ -104,7 +104,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/arthur.jpg"}
+                src={"/image/members/arthur.jpg"}
                 alt="Foto do Arthur"
                 height={150} 
                 width={0}    
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/eduardo.jpg"}
+                src={"/image/members/eduardo.jpg"}
                 alt="Foto do Eduardo"
                 height={150} 
                 width={0}    
@@ -136,7 +136,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
+                src={"/image/members/lucas.jpg"}
                 alt="Foto do Lucas"
                 height={150} 
                 width={0}    
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/giovana.jpg"}
+                src={"/image/members/giovana.jpg"}
                 alt="Foto do Giovana"
                 height={150} 
                 width={0}    
@@ -171,7 +171,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/cintia.jpg"}
+                src={"/image/members/cintia.jpg"}
                 alt="Foto da Cintia"
                 height={150} 
                 width={0}    
@@ -189,7 +189,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
+                src={"/image/members/lucas.jpg"}
                 alt="Foto do Lucas"
                 height={150} 
                 width={0}    
@@ -206,7 +206,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/pedro.jpg"}
+                src={"/image/members/pedro.jpg"}
                 alt="Foto do Pedro"
                 height={150} 
                 width={0}    
@@ -224,7 +224,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/lucas.jpg"}
+                src={"/image/members/lucas.jpg"}
                 alt="Foto do Lucas"
                 height={150} 
                 width={0}    
@@ -241,7 +241,7 @@ export default function Home() {
             </div>
             <div className="w-80 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center ">
               <Image
-                src={"/image/bernardo.jpg"}
+                src={"/image/members/bernardo.jpg"}
                 alt="Foto do Bernardo"
                 height={150} 
                 width={0}    
@@ -383,7 +383,7 @@ export default function Home() {
             </p>
           </div>
           <div style={{width: "80%"}}  className="rounded-lg border-4 border-red">
-            <Mapa></Mapa>
+            <Map />
           </div>
           
         </div>
