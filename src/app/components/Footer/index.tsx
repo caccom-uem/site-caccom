@@ -1,5 +1,4 @@
-// src/components/CaccomBanner.tsx
-import Image from "next/image";
+import Image from 'next/image';
 
 export function Folder() {
   return (
@@ -53,7 +52,6 @@ export function Folder() {
             d="M0,150 C150 30 307 172 518 30 l600 -100 C 1000 177 384 151 205 154 L -1 152 Z"
             className="fill-gray-200"
           ></path>
-          
         </svg>
       </div>
     </section>

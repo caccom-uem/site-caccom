@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-import "./globals.css";
-import {Navbar} from "./components/NavBar";
-import {Folder} from "./components/Footer";
+import './globals.css';
+import { Navbar } from './components/NavBar';
+import { Folder } from './components/Footer';
 
 export const metadata: Metadata = {
-  title: "CACCOM",
-  description: "Site oficial do CACCOM",
+  title: 'CACCOM',
+  description: 'Site oficial do CACCOM',
 };
 
 export default function RootLayout({
@@ -17,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="bg-background">
-        <Navbar/>
+        <Navbar />
         <main>{children} </main>
-        <Folder/>
+        <Folder />
       </body>
     </html>
   );

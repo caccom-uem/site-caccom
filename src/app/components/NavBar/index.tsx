@@ -1,27 +1,33 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { NavLink } from "./NavLink";
+import Image from 'next/image';
+import { NavLink } from './NavLink';
 
 export function Navbar() {
   return (
     <nav className="w-full bg-black text-white pt-5 pl-10 flex flex-col shadow-md">
       <section className="flex justify-around item-center">
-        <div className="flex space-x-2 justify-start h-auto" style={{width: "30%"}}>
+        <div
+          className="flex space-x-2 justify-start h-auto"
+          style={{ width: '30%' }}
+        >
           <Image
-            src={"/image/logo/logo-icone.png"}
+            src={'/image/logo/logo-icone.png'}
             alt="Logo CACCOM"
             width={40}
             height={40}
           ></Image>
           <Image
-            src={"/image/logo/logo-escrita.png"}
+            src={'/image/logo/logo-escrita.png'}
             alt="Logo CACCOM"
             width={120}
             height={20}
           ></Image>
         </div>
-        <div className="flex justify-end space-x-6 pr-5" style={{width: "70%"}}>
+        <div
+          className="flex justify-end space-x-6 pr-5"
+          style={{ width: '70%' }}
+        >
           <NavLink href="/">Início </NavLink>
           <NavLink href="/calendario"> Calendário </NavLink>
           <NavLink href="/filiacao"> Filiação </NavLink>
