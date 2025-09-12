@@ -15,9 +15,9 @@ export function NavLink({ href, children }: NavLinkProps) {
   return (
     <Link
       href={href}
-      className={`px-4 py-2 transition-colors font-semibold border-2 rounded-3xl pl-4 pr-4 ${
-        isActive ? 'bg-red border-red text-white' : 'hover:bg-red'
-      }`}
+      className={`px-4 py-2 rounded-3xl border transition-all duration-300 font-medium
+    ${isActive ? 'bg-red border-red text-white' : 'border-white text-white hover:bg-red hover:text-white'}
+  `}
     >
       {children}
     </Link>
