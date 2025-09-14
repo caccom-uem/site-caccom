@@ -56,7 +56,7 @@ export default function Home() {
             name="Julia de A. Pires"
             image="/image/members/julia.jpg"
             cargo="Vice-Presidente"
-            linkedin="https://www.linkedin.com/in/julia-pires-123456789/"
+            linkedin="https://www.linkedin.com/in/julia-de-araujo-pires/"
           />
           <MemberCard
             name="Nuno M. M. Abilio"
@@ -108,6 +108,7 @@ export default function Home() {
             name="Kauã Belmonte"
             image="/image/members/kaua.jpg"
             cargo="Acessor de financeiro"
+            linkedin='https://www.linkedin.com/in/kau%C3%A3-belmonte-235b7b2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
           />
           <MemberCard
             name="Pedro L. S. Figueiredo"
