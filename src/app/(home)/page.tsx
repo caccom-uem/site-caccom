@@ -89,37 +89,37 @@ export default function Home() {
           <MemberCard
             name="Giovanna da S. Bulcão"
             image="/image/members/giovana.jpg"
-            cargo="Acessora da secretaria"
+            cargo="Assessora da secretaria"
             linkedin="https://www.linkedin.com/in/giovana-da-silva-bulc%C3%A3o?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           />
           <MemberCard
             name="José L. P. de Sousa"
             image="/image/members/jose.jpg"
-            cargo="Acessor de projetos"
+            cargo="Assessor de projetos"
             linkedin="https://www.linkedin.com/in/peres07"
           />
           <MemberCard
             name="Cintia da S. Bulcão"
             image="/image/members/cintia.jpg"
-            cargo="Acessora da presidência"
+            cargo="Assessora da presidência"
             linkedin="https://www.linkedin.com/in/cintia-da-silva-bulc%C3%A3o-66896836b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           />
           <MemberCard
             name="Kauã Belmonte"
             image="/image/members/kaua.jpg"
-            cargo="Acessor de financeiro"
+            cargo="Assessor de financeiro"
             linkedin="https://www.linkedin.com/in/kau%C3%A3-belmonte-235b7b2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           />
           <MemberCard
             name="Pedro L. S. Figueiredo"
             image="/image/members/pedro.jpg"
-            cargo="Acessor de comunicação"
+            cargo="Assessor de comunicação"
             linkedin="https://www.linkedin.com/in/pedro-luiz-47565b231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           />
           <MemberCard
             name="Bernardo W. de Oliveira"
             image="/image/members/bernardo.jpg"
-            cargo="Acessor da secretaria"
+            cargo="Assessor da secretaria"
             linkedin="https://www.linkedin.com/in/bernardo-oliveira-b53666206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           />
         </div>
