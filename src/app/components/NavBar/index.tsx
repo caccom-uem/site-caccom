@@ -33,7 +33,7 @@ export function Navbar() {
           alt="Logo CACCOM"
           width={120}
           height={20}
-          className="hidden sm:block"
+          className="hidden lg:block"
         />
       </div>
 
