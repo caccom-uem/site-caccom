@@ -4,11 +4,13 @@ import { News } from '@/src/interfaces/news';
 
 export class NewsApi extends Api {
   constructor() {
-    super('/news');
+    super('/noticias');
   }
 
-  async getNews(): Promise<StrapiResponse<News>> {
-    const { data } = await this.api.get<StrapiResponse<News>>('/');
-    return data;
+  async getNews(page: number = 1): Promise<StrapiResponse<News>> {
+    const response = await this.api.get<StrapiResponse<News>>(
+      `?populate=imagem&pagination[page]=${page}`
+    );
+    return response.data;
   }
 }

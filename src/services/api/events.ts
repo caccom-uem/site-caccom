@@ -4,12 +4,13 @@ import { Event } from '@/src/interfaces/event';
 
 export class EventsApi extends Api {
   constructor() {
-    super('/events');
+    super('/eventos');
   }
 
-  async getEvents(): Promise<StrapiResponse<Event>> {
-    const { data } =
-      await this.api.get<StrapiResponse<Event>>('?populate=imagem');
-    return data;
+  async getEvents(page: number): Promise<StrapiResponse<Event>> {
+    const response = await this.api.get<StrapiResponse<Event>>(
+      `?populate=imagem&pagination[page]=${page}`
+    );
+    return response.data;
   }
 }
