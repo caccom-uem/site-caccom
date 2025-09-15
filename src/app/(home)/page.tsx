@@ -5,6 +5,10 @@ import { Map } from './components/Map';
 import { MemberCard } from './components/MemberCard';
 import { LinkWithIcon } from './components/LinkWithIcon';
 
+export const metadata = {
+  title: 'Início',
+};
+
 export default function Home() {
   return (
     <div>
