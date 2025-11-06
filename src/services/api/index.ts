@@ -4,7 +4,7 @@ export class Api {
   public api: AxiosInstance;
 
   constructor(base_url: string) {
-    const api_url = process.env.API_URL ?? 'http://localhost:1337/api';
+    const api_url = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:1337/api';
     this.api = axios.create({
       baseURL: `${api_url}${base_url}`,
       headers: {
