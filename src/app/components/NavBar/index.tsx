@@ -39,9 +39,9 @@ export function Navbar() {
 
       <div className="hidden md:flex items-center space-x-4">
         <NavLink href="/">Início</NavLink>
+        <NavLink href="/noticias">Notícias</NavLink>
         <NavLink href="/calendario">Calendário</NavLink>
         <NavLink href="/filiacao">Filiação</NavLink>
-        <NavLink href="/noticia">Notícias</NavLink>
         <NavLink href="/documentacao">Documentação</NavLink>
         <NavLink href="/eleicao">Eleição</NavLink>
       </div>

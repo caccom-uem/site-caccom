@@ -4,15 +4,18 @@ import { EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import { Map } from './components/Map';
 import { MemberCard } from './components/MemberCard';
 import { LinkWithIcon } from './components/LinkWithIcon';
+import { Title } from '../components/Title';
+
+export const metadata = {
+  title: 'Início',
+};
 
 export default function Home() {
   return (
     <div>
       <section className="px-6 py-12 md:px-12 lg:p-20 flex flex-col lg:flex-row justify-between items-center gap-12">
         <div className="w-full lg:w-[55%]">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl text-red font-bold mb-4 text-center lg:text-left">
-            Sobre nós
-          </h1>
+          <Title>Sobre nós</Title>
           <p className="text-lg font-semibold text-black text-justify mb-2">
             Somos o CACCOM – Centro Acadêmico de Ciência da Computação da UEM.
           </p>
@@ -42,10 +45,8 @@ export default function Home() {
       </section>
 
       <section className="px-4 py-12 sm:px-10 md:px-12 lg:p-20 bg-gray-300">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl md:text-left text-red font-bold text-center mb-10">
-          Gestão Atual
-        </h1>
-        <div className="flex flex-wrap gap-8 justify-center">
+        <Title>Gestão Atual</Title>
+        <div className="flex flex-wrap gap-8 justify-center mt-10">
           <MemberCard
             name="Lucas A. de Lima"
             image="/image/members/lucas.jpg"
@@ -126,9 +127,7 @@ export default function Home() {
       </section>
 
       <section className="px-6 py-12 md:px-12 lg:px-20 flex flex-col">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-red font-bold text-center lg:text-left mb-10">
-          Contato e Localização
-        </h1>
+        <Title>Contato e Localização</Title>
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mt-4">
           <div className="flex flex-col gap-4 w-full lg:w-auto">
             <LinkWithIcon
@@ -155,9 +154,9 @@ export default function Home() {
 
       {/* Componentizar essa seção - Mover para página de documentos*/}
       {/* <section className="px-6 py-12 md:px-12 lg:px-20 flex flex-col bg-gray-300">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-red font-bold text-center lg:text-left">
+        <Title className="text-4xl md:text-5xl lg:text-6xl text-red font-bold text-center lg:text-left">
           Links Úteis
-        </h1>
+        </Title>
         <ul className="list-none flex flex-wrap gap-5 mt-10 justify-center lg:justify-start">
           <a href="#">
             <li className="rounded-lg p-4 bg-black hover:bg-gray-800 text-white text-center">

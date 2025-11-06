@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
-import { Poppins, Inter } from 'next/font/google';
+import { siteMetadata } from './metadata';
 
 import './globals.css';
+import { Poppins, Inter } from 'next/font/google';
 import { Navbar } from './components/NavBar';
 import { Footer } from './components/Footer';
 
@@ -17,10 +18,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-export const metadata: Metadata = {
-  title: 'CACCOM',
-  description: 'Site oficial do CACCOM',
-};
+export const metadata: Metadata = siteMetadata;
 
 export default function RootLayout({
   children,
