@@ -7,9 +7,9 @@ export class NewsApi extends Api {
     super('/noticias');
   }
 
-  async getNews(page: number = 1): Promise<StrapiResponse<News>> {
+  async getNews(page: number, pageSize: number): Promise<StrapiResponse<News>> {
     const response = await this.api.get<StrapiResponse<News>>(
-      `?populate=imagem&pagination[page]=${page}`
+      `?populate=imagem&pagination[page]=${page}&pagination[pageSize]=${pageSize}`
     );
     return response.data;
   }

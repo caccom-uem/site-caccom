@@ -7,9 +7,12 @@ export class EventsApi extends Api {
     super('/eventos');
   }
 
-  async getEvents(page: number): Promise<StrapiResponse<Event>> {
+  async getEvents(
+    page: number,
+    pageSize: number
+  ): Promise<StrapiResponse<Event>> {
     const response = await this.api.get<StrapiResponse<Event>>(
-      `?populate=imagem&pagination[page]=${page}`
+      `?populate=imagem&pagination[page]=${page}&pagination[pageSize]=${pageSize}`
     );
     return response.data;
   }
