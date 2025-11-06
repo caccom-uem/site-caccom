@@ -30,7 +30,6 @@ export function DynamicEvents({ initialPage }: { initialPage: number }) {
 
       setEvents(events);
       setPageCount(eventsMeta?.pagination?.pageCount || 1);
-      console.log(eventsMeta);
     }
     fetchEvents();
   }, [page, itemsPerPage]);
