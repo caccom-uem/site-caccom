@@ -30,7 +30,6 @@ export function DynamicNews({ initialPage }: { initialPage: number }) {
 
       setNews(news);
       setPageCount(newsMeta?.pagination?.pageCount || 1);
-      console.log(newsMeta);
     }
     fetchNews();
   }, [page, itemsPerPage]);
