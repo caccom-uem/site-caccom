@@ -1,11 +1,27 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
+import { validateRequiredFields } from '@/src/utils/validateRequiredFields';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
-    const { name, ra, email, year, position } = await req.json();
+    const body = await req.json();
+
+    const requiredFields = ['name', 'ra', 'email', 'year'];
+    const missingFields = validateRequiredFields(body, requiredFields);
+
+    if (missingFields.length > 0) {
+      return NextResponse.json(
+        {
+          error: 'Campos obrigatórios ausentes',
+          fields: missingFields,
+        },
+        { status: 400 }
+      );
+    }
+
+    const { name, ra, email, year, position } = body;
 
     const safePosition =
       position && position.trim() !== '' ? position : 'Não informado';
